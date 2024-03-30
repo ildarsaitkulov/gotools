@@ -9,7 +9,7 @@ import (
 func main() {
 	args := os.Args
 	if len(args) == 1 {
-		fmt.Println("Please provide an argument!")
+		fmt.Println("Please provide an argument!!")
 		return
 	}
 	file := args[1]
